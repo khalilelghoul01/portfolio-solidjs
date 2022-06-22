@@ -2,6 +2,15 @@ import Typed from './Typed'
 import { Motion } from '@motionone/solid'
 
 function Hero({ ...props }: any) {
+  const handleSectionClickByID = (e: MouseEvent, id: string) => {
+    e.preventDefault()
+    const sectionElement = document.getElementById(id)
+    if (sectionElement) {
+      sectionElement.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  }
   return (
     <Motion.div
       {...props}
@@ -37,6 +46,7 @@ function Hero({ ...props }: any) {
           class="bg-[#00df9a] w-[160px] rounded-md font-medium my-6 py-2 mx-auto text-black"
           animate={{ opacity: [0, 1] }}
           transition={{ duration: 1, easing: 'ease-in-out' }}
+          onclick={(e) => handleSectionClickByID(e, 'about')}
         >
           See More
         </Motion.button>

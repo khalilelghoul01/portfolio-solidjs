@@ -20,6 +20,7 @@ function Navbar() {
       })
     }
   }
+
   const handleNav = () => {
     setNav(!nav())
   }

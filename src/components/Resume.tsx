@@ -54,6 +54,16 @@ function Resume({ ...props }) {
             data-aos-once="false"
           />
           <SkillCard
+            skill="Dart (Flutter)"
+            experience={70}
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
+          />
+          <SkillCard
             skill="JS/TS (Frameworks)"
             experience={60}
             data-aos="zoom-in"
@@ -63,6 +73,7 @@ function Resume({ ...props }) {
             data-aos-easing="ease-in-out"
             data-aos-once="false"
           />
+
           <SkillCard
             skill="Java"
             experience={70}

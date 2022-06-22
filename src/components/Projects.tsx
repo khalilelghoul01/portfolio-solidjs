@@ -75,6 +75,28 @@ function Projects({ ...props }) {
           link="https://github.com/khalilelghoul01/University-Project-Android-App"
         />
       </div>
+      <h1
+        class="mx-auto text-center text-white font-bold text-sm"
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false"
+      >
+        Other projects are coming soon, stay tuned
+      </h1>
+      <h1
+        class="mx-auto text-center text-white font-light text-xs"
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false"
+      >
+        preparing an database to store all my projects
+      </h1>
     </div>
   )
 }
