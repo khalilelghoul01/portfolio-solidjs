@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@motionone/solid": "^10.10.0",
+    "emailjs-com": "^3.2.0",
     "solid-icons": "^0.4.13",
     "solid-js": "^1.4.2"
   }
