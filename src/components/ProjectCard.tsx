@@ -26,18 +26,16 @@ function ProjectCard({
   return (
     <div
       {...props}
-      class="text-center h-full max-w-sm rounded-lg border border-gray-200 shadow-md dark:border-gray-700 mx-auto min-h-[150px] w-full "
+      class="text-center h-full max-w-sm rounded-lg border shadow-md border-gray-700 mx-auto min-h-[150px] w-full "
     >
       <div class="p-5 flex flex-col justify-between h-full items-center">
         <div>
           <a href={link} target="_blank">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
               {title}
             </h5>
           </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            {newDescription}
-          </p>
+          <p class="mb-3 font-normal text-gray-400">{newDescription}</p>
         </div>
         <a
           href={link}
