@@ -21,7 +21,7 @@ function ProjectCard({
   link: string
   [key: string]: any
 }) {
-  const newDescription = TextAbstract(description, 100)
+  const newDescription = TextAbstract(description, 120)
 
   return (
     <div
