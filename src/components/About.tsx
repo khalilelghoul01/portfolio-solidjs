@@ -3,6 +3,9 @@ import student from '../assets/images/read.png'
 function About() {
   return (
     <div class="py-16 px-4 w-full bg-white">
+      <h1 class="text-black font-bold text-4xl md:text-7xl sm:text-5xl p-5 mt-5 mx-auto text-center">
+        About
+      </h1>
       <div class="mx-auto max-w-[1240] grid md:grid-cols-2 ">
         <img
           src={student}
