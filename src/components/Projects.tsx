@@ -1,8 +1,8 @@
 import ProjectCard from './ProjectCard'
 
-function Projects() {
+function Projects({ ...props }) {
   return (
-    <div>
+    <div class="py-16 px-4 w-full" {...props}>
       <h1 class="text-white font-bold text-4xl md:text-7xl sm:text-5xl p-5 mt-5 mx-auto text-center">
         Projects
       </h1>
@@ -16,61 +16,6 @@ function Projects() {
           data-aos-once="false"
           title="Portfolio Website"
           description="Built with Solid js and tailwindcss"
-          link="https://github.com/khalilelghoul01/Core"
-        />
-        <ProjectCard
-          data-aos="zoom-in"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-once="false"
-          title="Portfolio Website"
-          description="Built with Solid js and tailwindcss"
-          link="https://github.com/khalilelghoul01/Core"
-        />
-        <ProjectCard
-          data-aos="zoom-in"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-once="false"
-          title="Portfolio Website"
-          description="Built with Solid js and tailwindcss"
-          link="https://github.com/khalilelghoul01/Core"
-        />
-        <ProjectCard
-          data-aos="zoom-in"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-once="false"
-          title="Portfolio Website"
-          description="Built with Solid js and tailwindcss"
-          link="https://github.com/khalilelghoul01/Core"
-        />
-        <ProjectCard
-          data-aos="zoom-in"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-once="false"
-          title="Portfolio Website"
-          description="Built with Solid js and tailwindcss"
-          link="https://github.com/khalilelghoul01/Core"
-        />
-        <ProjectCard
-          data-aos="zoom-in"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-once="false"
-          title="Portfolio Website"
-          description="lore ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem."
           link="https://github.com/khalilelghoul01/Core"
         />
       </div>

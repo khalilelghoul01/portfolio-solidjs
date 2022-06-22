@@ -11,11 +11,11 @@ const App: Component = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Resume />
-      <Contact />
+      <Hero id="home" />
+      <About id="about" />
+      <Projects id="projects" />
+      <Resume id="resume" />
+      <Contact id="contact" />
       <Footer />
     </div>
   )

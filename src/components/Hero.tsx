@@ -1,14 +1,15 @@
 import Typed from './Typed'
 import { Motion } from '@motionone/solid'
 
-function Hero() {
+function Hero({ ...props }: any) {
   return (
     <Motion.div
+      {...props}
       class="text-white"
       animate={{ opacity: [0, 1] }}
       transition={{ duration: 1, easing: 'ease-in-out' }}
     >
-      <div class=" max-w-[800] mt-[-96] w-full h-[86vh] mx-auto text-center flex flex-col justify-center ">
+      <div class=" max-w-[800] mt-[-96] w-full h-[100vh] mx-auto text-center flex flex-col justify-center ">
         <p class=" uppercase text-[#00df9a] font-bold p-2">
           Looking For Beauty Within Chaos
         </p>

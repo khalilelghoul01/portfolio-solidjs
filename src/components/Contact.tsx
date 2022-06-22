@@ -1,9 +1,10 @@
 import Form from './Form'
 import emailjs from 'emailjs-com'
-function Contact() {
-  const SERVICE_ID = 'service_po7s0yg'
-  const TEMPLATE_ID = 'template_tv8xjh7'
-  const USER_ID = 'myK85vJ2sCA4HQfSS'
+function Contact({ ...props }: any) {
+  const SERVICE_ID = import.meta.env.VITE_SERVICE_ID
+  const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID
+  const USER_ID = import.meta.env.VITE_USER_ID
+
   const handleOnSubmit = (e: Event) => {
     e.preventDefault()
     const target = e.target as HTMLFormElement
@@ -18,7 +19,7 @@ function Contact() {
     target.reset()
   }
   return (
-    <div class="py-16 w-full ">
+    <div class="py-16 w-full " {...props}>
       <h1 class="text-white font-bold text-4xl md:text-7xl sm:text-5xl p-5 mt-5 mx-auto text-center">
         Contact
       </h1>

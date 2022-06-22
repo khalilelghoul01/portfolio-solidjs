@@ -10,6 +10,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.0.0",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4",
@@ -20,7 +21,9 @@
   "dependencies": {
     "@motionone/solid": "^10.10.0",
     "emailjs-com": "^3.2.0",
+    "notyf": "^3.10.0",
     "solid-icons": "^0.4.13",
-    "solid-js": "^1.4.2"
+    "solid-js": "^1.4.2",
+    "solid-toast": "^0.1.5"
   }
 }

@@ -1,8 +1,8 @@
 import student from '../assets/images/read.png'
 
-function About() {
+function About({ ...props }) {
   return (
-    <div class="py-16 px-4 w-full bg-white">
+    <div class="py-16 px-4 w-full bg-white" {...props}>
       <h1 class="text-black font-bold text-4xl md:text-7xl sm:text-5xl p-5 mt-5 mx-auto text-center">
         About
       </h1>

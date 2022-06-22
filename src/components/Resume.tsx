@@ -1,8 +1,9 @@
 import SkillCard from './SkillCard'
 import resume from '../assets/images/resume.png'
-function Resume() {
+import resumePdf from '../assets/cv.pdf'
+function Resume({ ...props }) {
   return (
-    <div class="py-16 px-4 w-full bg-white">
+    <div class="py-16 px-4 w-full bg-white" {...props}>
       <h1 class="text-black font-bold text-4xl md:text-7xl sm:text-5xl p-5 mt-5 mx-auto text-center">
         Resume
       </h1>
@@ -21,7 +22,10 @@ function Resume() {
           />
           <div class="absolute bottom-1/2 right-1/2 text-center translate-x-[50%] md:hidden group-hover:block ease-in-out delay-1000">
             <a
-              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              href={resumePdf}
               class="text-black text-sm font-bold no-underline hover:text-black py-2 px-3 bg-[#00df9a]  rounded-lg text-center"
             >
               Download

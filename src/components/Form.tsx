@@ -1,6 +1,6 @@
 function Form() {
   return (
-    <div class="text-white w-full">
+    <div class="text-white w-[90vw]">
       <div class=" text-3xl flex flex-col justify-center items-center px-5">
         Name:
         <input
@@ -42,6 +42,7 @@ function Form() {
         <input
           type="submit"
           class="mx-auto text-black bg-[#00df9a] font-medium p-2 rounded-lg "
+          value={'Send'}
         />
       </div>
     </div>
